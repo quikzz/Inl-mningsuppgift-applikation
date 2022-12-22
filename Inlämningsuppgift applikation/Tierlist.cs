@@ -89,7 +89,7 @@ namespace Inlämningsuppgift_applikation
             }
 
             // Skriver ut tabellen
-            table.Write();
+            table.Write(Format.Minimal);
             
             // Skriver ut ett meddelande till användaren att hämtningen av datan lyckats samt instruktion om hur användaren återvänder till menyn.
             Console.WriteLine("Data Fetched successfully! Press any key to go back");
